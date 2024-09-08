@@ -1,0 +1,9 @@
+git init
+git add file_name
+git rm --chached
+git commit -m "Any message"
+git status
+git remote -v
+git remote add origin https://github.com/AmanCloudOps/git-workshop.git
+git remote set-url origin https://personal-access-token@github.com/AmanCloudOps/git-workshop.git
+git push orogin master
